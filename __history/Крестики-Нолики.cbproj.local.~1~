@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.506,=C:\Users\Екатерина\Downloads\ShigotoMemogaki-Regular-1-01.ttf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.638,C:\Users\Екатерина\Downloads\ShigotoMemogaki-Regular-1-01.ttf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.207,=C:\Users\Екатерина\Downloads\ShigotoMemogaki-Regular-1-01.ttf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.741,=C:\Users\Екатерина\Downloads\3680.ttf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.247,C:\Users\Екатерина\Downloads\3680.ttf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.272,C:\Users\Екатерина\Desktop\arts\projects\games\Крестики-Нолики\Project1.cbproj=C:\Users\Екатерина\Desktop\arts\projects\a\Крестики-Нолики.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.530,=C:\Users\Екатерина\Downloads\Без-имени-1.ico</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.690,C:\Users\Екатерина\Downloads\Без-имени-1.ico=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.170,C:\Users\Екатерина\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Екатерина\Desktop\arts\projects\Новая папка\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.308,C:\Users\Екатерина\Downloads\ShigotoMemogaki-Regular-1-01.ttf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.015,C:\Users\Екатерина\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Екатерина\Desktop\arts\projects\Новая папка\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.170,C:\Users\Екатерина\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Екатерина\Desktop\arts\projects\Новая папка\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.807,C:\Users\Екатерина\Desktop\arts\projects\Новая папка\Project1.cbproj=C:\Users\Екатерина\Desktop\arts\projects\games\Крестики-Нолики\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.251,=C:\Users\Екатерина\Desktop\arts\projects\a\ShigotoMemogaki-Regular-1-01.ttf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,C:\Users\Екатерина\Desktop\arts\projects\a\ShigotoMemogaki-Regular-1-01.ttf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.977,C:\Users\Екатерина\Desktop\arts\projects\Новая папка\Project1PCH1.h=C:\Users\Екатерина\Desktop\arts\projects\a\Крестики-НоликиPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.296,=C:\Users\Екатерина\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.546,C:\Users\Екатерина\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Екатерина\Desktop\arts\projects\Новая папка\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.850,C:\Users\Екатерина\Desktop\arts\projects\a\3680.ttf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.229,=C:\Users\Екатерина\Desktop\arts\projects\a\3680.ttf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.487,=C:\Users\Екатерина\Downloads\3680.ttf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.617,C:\Users\Екатерина\Downloads\3680.ttf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.158,=C:\Users\Екатерина\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.170,C:\Users\Екатерина\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Екатерина\Desktop\arts\projects\Новая папка\Unit1.cpp</Transaction>
+    <Transaction>2019.04.10 17:28:08.109,=C:\Users\Екатерина\Desktop\arts\projects\a\Unit2.cpp</Transaction>
+    <Transaction>2019.04.10 18:49:18.964,=C:\Users\Екатерина\Desktop\arts\projects\a\Unit2.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
