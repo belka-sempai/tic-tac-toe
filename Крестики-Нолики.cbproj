@@ -58,8 +58,8 @@
         <Icon_MainIcon>$(BDS)\bin\cbuilder_PROJECTICON.ico</Icon_MainIcon>
         <UWP_CppLogo44>$(BDS)\bin\Artwork\Windows\UWP\cppreg_UwpDefault_44.png</UWP_CppLogo44>
         <UWP_CppLogo150>$(BDS)\bin\Artwork\Windows\UWP\cppreg_UwpDefault_150.png</UWP_CppLogo150>
-        <IncludePath>..\Новая папка\;..\..\a\;..\..\Новая папка\;..\games\Крестики-Нолики\;..\..\..\..\Desktop\arts\projects\Новая папка\;$(IncludePath)</IncludePath>
-        <ILINK_LibraryPath>..\Новая папка\;..\..\a\;..\..\Новая папка\;..\games\Крестики-Нолики\;..\..\..\..\Desktop\arts\projects\Новая папка\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <IncludePath>..\a\;..\..\a\;..\..\a\;..\games\Крестики-Нолики\;..\..\..\..\Desktop\arts\projects\a\;$(IncludePath)</IncludePath>
+        <ILINK_LibraryPath>..a\;..\..\a\;..\..\a\;..\games\Крестики-Нолики\;..\..\..\..\Desktop\arts\projects\a\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
         <SanitizedProjectName>Крестики-Нолики</SanitizedProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
@@ -119,6 +119,18 @@
         <LinkPackageStatics>rtl.lib;vcl.lib</LinkPackageStatics>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="Unit1.cpp">
+            <Form>Form1</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit1.h</DependentOn>
+            <BuildOrder>3</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit2.cpp">
+            <Form>Form2</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit2.h</DependentOn>
+            <BuildOrder>3</BuildOrder>
+        </CppCompile>
         <CppCompile Include="Крестики-Нолики.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
@@ -126,13 +138,8 @@
             <BuildOrder>1</BuildOrder>
             <PCH>true</PCH>
         </PCHCompile>
-        <CppCompile Include="..\Новая папка\Unit1.cpp">
-            <Form>Form1</Form>
-            <FormType>dfm</FormType>
-            <DependentOn>..\Новая папка\Unit1.h</DependentOn>
-            <BuildOrder>2</BuildOrder>
-        </CppCompile>
-        <FormResources Include="..\Новая папка\Unit1.dfm"/>
+        <FormResources Include="Unit1.dfm"/>
+        <FormResources Include="Unit2.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
