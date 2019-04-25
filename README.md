@@ -10,3 +10,7 @@ How to run the game:
   - ShigotoMemogaki (ShigotoMemogaki-Regular-1-01.ttf)
  To install the font you should open the .ttf file and click "Install".
 4. Open the project (.cbproj file) in RAD Studio C++ Builder 10.3 and press "Run Without Debugging".
+
+Game window:
+
+![](screenshot.png)
