@@ -91,7 +91,7 @@ void __fastcall TForm1::C11Click(TObject *Sender)
 {
 if (C11->Caption=="x" || C11->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -120,7 +120,7 @@ void __fastcall TForm1::C12Click(TObject *Sender)
 {
 if (C12->Caption=="x" || C12->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -149,7 +149,7 @@ void __fastcall TForm1::C13Click(TObject *Sender)
 {
 if (C13->Caption=="x" || C13->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -178,7 +178,7 @@ void __fastcall TForm1::C21Click(TObject *Sender)
 {
 if (C21->Caption=="x" || C21->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -207,7 +207,7 @@ void __fastcall TForm1::C22Click(TObject *Sender)
 {
 if (C22->Caption=="x" || C22->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -236,7 +236,7 @@ void __fastcall TForm1::C23Click(TObject *Sender)
 {
 if (C23->Caption=="x" || C23->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -265,7 +265,7 @@ void __fastcall TForm1::C31Click(TObject *Sender)
 {
 if (C31->Caption=="x" || C31->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -294,7 +294,7 @@ void __fastcall TForm1::C32Click(TObject *Sender)
 {
 if (C32->Caption=="x" || C32->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -323,7 +323,7 @@ void __fastcall TForm1::C33Click(TObject *Sender)
 {
 if (C33->Caption=="x" || C33->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -479,7 +479,7 @@ if (Cell[2][0]!=0)
 
 if (win!=0)
 	{
-	ShowMessage("Игрок №"+IntToStr(win)+" победил!");
+	ShowMessage("Г€ГЈГ°Г®ГЄ В№"+IntToStr(win)+" ГЇГ®ГЎГҐГ¤ГЁГ«!");
 	Form1->ClearCells();
 	}
 }
@@ -490,7 +490,7 @@ if (Dif==3)
 	{
 	if (Turns==9 && win==0)
 		{
-		ShowMessage("Игра окончена, победила дружба!");
+		ShowMessage("Г€ГЈГ°Г  Г®ГЄГ®Г­Г·ГҐГ­Г , ГЇГ®ГЎГҐГ¤ГЁГ«Г  Г¤Г°ГіГ¦ГЎГ !");
 		Form1->ClearCells();
 		}
 	}
@@ -499,7 +499,7 @@ if (Dif==4)
 	{
 	if (Turns==16 && win==0)
 		{
-		ShowMessage("Игра окончена, победила дружба!");
+		ShowMessage("Г€ГЈГ°Г  Г®ГЄГ®Г­Г·ГҐГ­Г , ГЇГ®ГЎГҐГ¤ГЁГ«Г  Г¤Г°ГіГ¦ГЎГ !");
 		Form1->ClearCells();
 		}
 	}
@@ -994,7 +994,7 @@ if (Cell4[3][1]!=0)
 
 if (win!=0)
 	{
-	ShowMessage("Игрок №"+IntToStr(win)+" победил!");
+	ShowMessage("Г€ГЈГ°Г®ГЄ В№"+IntToStr(win)+" ГЇГ®ГЎГҐГ¤ГЁГ«!");
 	Form1->ClearCells();
 	}
 }
@@ -1002,7 +1002,7 @@ void __fastcall TForm1::Cell11Click(TObject *Sender)
 {
 if (Cell11->Caption=="x" || Cell11->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1033,7 +1033,7 @@ void __fastcall TForm1::Cell12Click(TObject *Sender)
 {
 if (Cell12->Caption=="x" || Cell12->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1064,7 +1064,7 @@ void __fastcall TForm1::Cell13Click(TObject *Sender)
 {
 if (Cell13->Caption=="x" || Cell13->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1094,7 +1094,7 @@ void __fastcall TForm1::Cell14Click(TObject *Sender)
 {
 if (Cell14->Caption=="x" || Cell14->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1124,7 +1124,7 @@ void __fastcall TForm1::Cell21Click(TObject *Sender)
 {
 if (Cell21->Caption=="x" || Cell21->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1154,7 +1154,7 @@ void __fastcall TForm1::Cell22Click(TObject *Sender)
 {
 if (Cell22->Caption=="x" || Cell22->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1184,7 +1184,7 @@ void __fastcall TForm1::Cell23Click(TObject *Sender)
 {
 if (Cell23->Caption=="x" || Cell23->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1214,7 +1214,7 @@ void __fastcall TForm1::Cell24Click(TObject *Sender)
 {
 if (Cell24->Caption=="x" || Cell24->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1244,7 +1244,7 @@ void __fastcall TForm1::Cell31Click(TObject *Sender)
 {
 if (Cell31->Caption=="x" || Cell31->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1274,7 +1274,7 @@ void __fastcall TForm1::Cell32Click(TObject *Sender)
 {
 if (Cell32->Caption=="x" || Cell32->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1304,7 +1304,7 @@ void __fastcall TForm1::Cell33Click(TObject *Sender)
 {
 if (Cell33->Caption=="x" || Cell33->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1334,7 +1334,7 @@ void __fastcall TForm1::Cell34Click(TObject *Sender)
 {
 if (Cell34->Caption=="x" || Cell34->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1364,7 +1364,7 @@ void __fastcall TForm1::Cell41Click(TObject *Sender)
 {
 if (Cell41->Caption=="x" || Cell41->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1394,7 +1394,7 @@ void __fastcall TForm1::Cell42Click(TObject *Sender)
 {
 if (Cell42->Caption=="x" || Cell42->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1424,7 +1424,7 @@ void __fastcall TForm1::Cell43Click(TObject *Sender)
 {
 if (Cell43->Caption=="x" || Cell43->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
@@ -1454,7 +1454,7 @@ void __fastcall TForm1::Cell44Click(TObject *Sender)
 {
 if (Cell44->Caption=="x" || Cell44->Caption=="o")
 	{
-	ShowMessage("Ячейка занята!");
+	ShowMessage("ГџГ·ГҐГ©ГЄГ  Г§Г Г­ГїГІГ !");
 	}
 else
 	{
