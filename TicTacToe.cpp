@@ -13,7 +13,7 @@ int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 	{
 		Application->Initialize();
 		Application->MainFormOnTaskBar = true;
-		Application->Title = "Êðåñòèêè-Íîëèêè";
+		Application->Title = "ÃŠÃ°Ã¥Ã±Ã²Ã¨ÃªÃ¨-ÃÃ®Ã«Ã¨ÃªÃ¨";
 		Application->CreateForm(__classid(TForm1), &Form1);
 		Application->CreateForm(__classid(TForm2), &Form2);
 		Application->Run();
